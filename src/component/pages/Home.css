@@ -1,0 +1,22 @@
+.card.unread {
+    border-left: 0.4rem solid blue; /* Add a blue left border as the mark */
+  }
+  
+  .card-size {
+    max-height: 15rem; /* Adjust the height value as needed */
+    overflow: hidden;
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 1rem; /* Adjust the top value as per your design */
+    right: 1rem; /* Adjust the right value as per your design */
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  
